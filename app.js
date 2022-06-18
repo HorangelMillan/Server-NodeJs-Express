@@ -106,8 +106,7 @@ app.post('/', async (req, res) => {
     try {
 
         const registration = await Registrations.create({
-            entranceTime: Date.now(),
-            status: 'working'
+            entranceTime: Date.now()
         });
 
         res.status(200).json({
