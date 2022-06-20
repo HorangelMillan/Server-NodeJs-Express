@@ -20,6 +20,4 @@ registrationsRouter.patch('/:id', exitRegistration);
 
 registrationsRouter.delete('/:id', cancelRegistration);
 
-
-
 module.exports = { registrationsRouter };

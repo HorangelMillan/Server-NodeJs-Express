@@ -7,7 +7,7 @@ const app = express();
 
 // middlewares
 app.use(express.json());
-app.use('/api/v1', registrationsRouter);
+app.use('/api/v1/registrations', registrationsRouter);
 
 // ----- authenticated database
 db.authenticate()
